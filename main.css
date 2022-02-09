@@ -213,6 +213,69 @@ body {
   margin-bottom: 100px;
 }
 
+.circle {
+  padding-top: 200px;
+}
+
+.circle__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 80px;
+}
+
+.circle__block {
+  width: 760px;
+  border-top: 2px solid #fdd6ba;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle__line {
+  width: 31px;
+  height: 31px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50px;
+  margin-top: -17px;
+  margin-bottom: 82px;
+}
+
+.number {
+  padding-bottom: 82px;
+}
+
+.number__item {
+  list-style-type: none;
+}
+.number__num {
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.number__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.number__text {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+  
+}
+
 
 @media only screen and (max-width: 992px) {
   .package {
@@ -275,8 +338,9 @@ body {
   .choses__card img {
     padding-right: 80px;
   }
-
-  
+  .circle__block {
+    width: 467px;
+  }
 }
 
 @media screen and (max-width: 689px){
@@ -318,12 +382,19 @@ body {
     display: block;
     padding: 50px;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
   .choses__card img {
     position: relative;
-    left: 50px;
+    /* left: 50px; */
+  }
+  .circle {
+    display: none;
   }
 
-  
+  .number__list {
+    text-align: center;
+  }
   
 }
