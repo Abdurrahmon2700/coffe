@@ -314,12 +314,13 @@ body {
   }
 
   .choses__card {
+    width: 95%;
     display: block;
-    padding: 72px 32px 48px;
+    padding: 50px;
     text-align: center;
   }
   .choses__card img {
-    padding-left: 50px;
+    margin-left: 55px;
   }
   
   
