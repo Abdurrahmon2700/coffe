@@ -320,8 +320,10 @@ body {
     text-align: center;
   }
   .choses__card img {
-    margin-left: 55px;
+    position: relative;
+    left: 50px;
   }
+
   
   
 }
